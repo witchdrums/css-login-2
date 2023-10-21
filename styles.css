@@ -8,12 +8,9 @@ body{
     font-family:'Roboto', sans-serif;
 }
 
-
-
 .contenedor-grid {
     display: grid;
     grid-template-columns: auto 45%;
-
 }
 
 .lado-izquierdo{
@@ -42,12 +39,10 @@ body{
     max-width: 500px;
 }
 
-
 .form-label{
     display: grid;
     place-content: start;
 }
-
 
 @media (max-width: 768px){
     .lado-izquierdo {
